@@ -10,11 +10,7 @@ const routes = [
             {
                 path: 'search', 
                 component: Search
-            },
-            {
-                path: 'watchlater', 
-                component: WatchLater
-            },
+            }
         ]
     }
 ]
