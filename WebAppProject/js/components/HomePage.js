@@ -19,8 +19,7 @@ const HomePage = {
         return {
             links: [
                 { text: 'Search', link: '/search' },
-                { text: 'Popular', link: '/popular' },
-                { text: 'Watch Later', link: '/watchLater' },
+                { text: 'Popular', link: '/popular' }
             ]
         }
     }
