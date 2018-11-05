@@ -38,17 +38,17 @@ const Results = {
                                                                 <div v-if="Array.isArray(val)" >
                                                                     <div v-for="(obj, index) in val">
                                                                         <div v-for="(val, key, index) in obj">
-                                                                            <strong>{{ key }}</strong> : {{val}} : {{index}}
+                                                                            <strong>{{ key }}</strong> : {{val}}
                                                                         </div> 
                                                                     </div>
                                                                 </div>
                                                                 <div v-else-if="typeof(val) === 'object'">
                                                                     <div v-for="(val, key, index) in val">
-                                                                        <strong>{{ key }}</strong> : {{val}} : {{index}}
+                                                                        <strong>{{ key }}</strong> : {{val}}
                                                                     </div> 
                                                                 </div>
                                                                 <div v-else>
-                                                                    <strong>{{ key }}</strong> : {{ val }} : {{index}}
+                                                                    <strong>{{ key }}</strong> : {{ val }}
                                                                 </div>
                                                             
                                                             </div>
