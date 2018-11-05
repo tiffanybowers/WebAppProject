@@ -19,4 +19,4 @@ const router = new VueRouter({
   routes
 })
 
-router.push(HomePage);
+router.push('/');
