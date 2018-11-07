@@ -1,5 +1,6 @@
-const routes = [
-    {
+const router = new VueRouter({
+  routes: [
+   {
         path: '/', 
         component: HomePage,
         children: [
@@ -13,10 +14,7 @@ const routes = [
             }
         ]
     }
-]
-
-const router = new VueRouter({
-  routes
+  ]
 })
 
 router.push('/');
