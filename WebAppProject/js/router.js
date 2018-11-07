@@ -15,6 +15,6 @@ const router = new VueRouter({
         ]
     }
   ]
-})
+});
 
 router.push('/');
