@@ -2,7 +2,7 @@ name: Deploy Vue App
 on:
   push:
     branches:
-      - main  # Change to your default branch name
+      - master  # Change to your default branch name
 
 jobs:
   build:
