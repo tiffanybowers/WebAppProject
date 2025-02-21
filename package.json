@@ -1,0 +1,19 @@
+{
+  "name": "webappproject",
+  "version": "1.0.0",
+  "description": "Practice Project called Movie App Project, that consists of using an api that retrieves movies stored in a database.",
+  "main": "vue.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiffanybowers/WebAppProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiffanybowers/WebAppProject/issues"
+  },
+  "homepage": "https://github.com/tiffanybowers/WebAppProject#readme"
+}
